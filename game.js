@@ -2,6 +2,8 @@ var buttonColours =["red","blue","green","yellow"];
 
 var gamePattern = [];
 
+var guideBtn = document.getElementById('guide');
+
 var userClickedPattern = [];
 
 var started=false;
@@ -91,3 +93,11 @@ $("#"+randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
   playSound(randomChosenColour);
 
 }
+
+guideBtn.addEventListener('mouseover',function(){
+
+  userguide.style.display = 'block';
+  
+  console.log('mo');
+ guideBtn.style.display = 'none';
+});
