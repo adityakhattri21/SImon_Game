@@ -99,5 +99,5 @@ guideBtn.addEventListener('mouseover',function(){
   userguide.style.display = 'block';
   
   console.log('mo');
- guideBtn.style.display = 'none';
+ userguide.style.display = 'none';
 });
